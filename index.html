@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shweta's Portfolio </title>
+    <!--box-icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Shweta Chandra</h1>
+            <h3>And I'm a <span class="h3-text"></span> </h3>
+            <p>From sleek interfaces to smooth animations, I craft web experiences that don’t just look good — they feel right. I speak fluent HTML, CSS, and JavaScript, and I’m on a never-ending quest to make the web more delightful, one component at a time.</p>
+
+</p>
+            <div class="social-media">
+                <a href=https://www.instagram.com><i class='bx bxl-instagram'></i></a>
+                <a href=http://www.linkedin.com/in/shweta-chandra-0883b2280><i class='bx bxl-linkedin'></i></a>
+            </div>   
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div >
+            <img src="Image.png" class="home-image" alt="">
+        </div>
+    </section>
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about_img.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi vitae provident distinctio quam. Aut magnam temporibus reprehenderit aliquid debitis necessitatibus alias nostrum recusandae atque dignissimos ratione, corporis aspernatur quisquam dolorum error, odio est rerum libero voluptatem reiciendis commodi. Ipsam eaque quidem, quaerat ducimus autem id ad eligendi impedit maxime facilis dolorem est ab aut provident, in sed, consequatur sapiente recusandae eius? Eaque ut ipsam, expedita alias consequatur a vel quod molestiae recusandae, eos et.</p>
+                <div class="more-text"><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus eaque laboriosam ullam tempora soluta labore ipsa aliquam, possimus suscipit at hic error debitis laborum obcaecati. Voluptatibus illo asperiores pariatur aliquam, dolore consectetur maxime eligendi quibusdam rem molestiae aut accusantium nihil beatae temporibus incidunt, dicta eveniet ducimus, maiores itaque. Corrupti quia optio, ipsa esse itaque nisi, minus aspernatur, tempora fugit culpa fugiat? Eius ipsum ullam officiis corrupti unde laborum deserunt nemo, modi fugiat consequuntur, eos quasi iusto libero asperiores veniam!</p>
+                </div>
+            <button class="btn" onclick="toggleReadMore(this)">Read More</button>
+
+        </div>
+    </section>
+    <!--Portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Project 1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Basic Calculator</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, fugiat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="project-2"><img  src="project 2.png" alt=""></div>
+                <div class="portfolio-layer">
+                    <h4>Blog Website</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, fugiat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="project-3"><img src="Project-3.png" alt=""></div>
+                <div class="portfolio-layer">
+                    <h4>Countdowm Timer</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, fugiat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Project 4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic-Tac-Toe Game</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, fugiat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Project 5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>To-Do List</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, fugiat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box"> 
+                <div class="project-6"><img src="Project 6.png" alt=""></div>
+                    <div class="portfolio-layer">
+                    <h4>Interacting Storytelling</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, fugiat.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Shweta | All Rights Reserved. </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+     <!-- scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- typed js -->
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--custom js-->
+    <script src="Introduction.js"></script>
+</body>
+</html>

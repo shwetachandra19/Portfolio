@@ -437,7 +437,7 @@ span{
     }
     .about img{
         margin-left: 50px;
-        max-width: 30%;
+        width: 50%;
         margin-bottom: 20px; ;
     }
     .about-text{

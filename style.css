@@ -430,6 +430,10 @@ span{
         flex-direction: column;
         text-align: center;
     }
+    .about-content h2{
+        text-align: center;
+        margin: 3rem;
+    }
     .about img{
         height: 70vw;
         width: 60vw;

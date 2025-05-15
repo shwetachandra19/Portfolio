@@ -435,9 +435,9 @@ span{
         text-align: center;
         margin: 3rem;
     }
-    #about img{
+    .about img{
         margin-left: 50px;
-        max-width: 50%;
+        max-width: 30%;
         margin-bottom: 20px; ;
     }
     .about-text{

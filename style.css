@@ -402,17 +402,21 @@ span{
     }
     .home{
         flex-direction: column;
+        text-align: center;
     }
     .home-content h3{
         font-size: 2.6rem;
     }
     .home-content h1{
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+    .home-content p {
+        font-size: 1.4rem;
     }
      .home-image {
         width: 50vw;
         height: 60vw;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     .home-image img {
@@ -422,7 +426,8 @@ span{
         position: absolute;
     }
     .about{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        text-align: center;
     }
     .about img{
         height: 70vw;
@@ -437,19 +442,34 @@ span{
     }
 
     .portfolio-container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
     }
    
-    .project-2 {
-        height:25vw; 
-    }
-    .project-3{
-        height: 25vw;
-    }
-    
-    .project-6{
-        height: 25vw;
-    }
+   .project-1,
+   .project-2,
+   .project-3,
+   .project-4,
+   .project-5,
+   .project-6 {
+    width: 100%;
+    height: auto;
+  }
+  .project-1 img,
+ .project-2 img,
+ .project-3 img,
+ .project-4 img,
+ .project-5 img,
+ .project-6 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+.more-text.show {
+    max-height: 1500px;
+}
 }
 @media (max-width:617px){
    .portfolio-container{

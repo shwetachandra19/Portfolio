@@ -434,9 +434,10 @@ span{
         text-align: center;
         margin: 3rem;
     }
-    #about img{
-        max-width: 50%; 
-        margin: 0 auto 20px auto;
+    .about img{
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
     }
     .portfolio h2{
         margin-bottom: 3rem;

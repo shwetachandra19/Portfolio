@@ -414,9 +414,10 @@ span{
         font-size: 1.4rem;
     }
      .home-image {
+        align-items: center;
         width: 50vw;
         height: 60vw;
-        margin-top: 2rem;
+        margin-top: 8rem;
     }
 
     .home-image img {

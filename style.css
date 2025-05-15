@@ -435,11 +435,9 @@ span{
         text-align: center;
         margin: 3rem;
     }
-    .about img{
-        margin-left: 30px;
-        height: 70vh;
-        width: 60vh;
-        margin-bottom: 20px; ;
+    #about img{
+        max-width: 50%; 
+        margin: 0 auto 20px auto;
     }
     .portfolio h2{
         margin-bottom: 3rem;

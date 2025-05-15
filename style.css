@@ -435,9 +435,11 @@ span{
         margin: 3rem;
     }
     .about img{
+        align-items: center;
         height: 70vw;
-        width: 60vw;
+        width: 55vw;
         margin-top: 4rem;
+        margin-left: 5rem;
     }
     .portfolio h2{
         margin-bottom: 3rem;

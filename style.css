@@ -429,7 +429,6 @@ span{
     .about{
         flex-direction: column;
         text-align: center;
-        align-items: center;
     }
     .about-content h2{
         text-align: center;

@@ -428,13 +428,14 @@ span{
     }
     .about{
         flex-direction: column-reverse;
-        text-align: center;
     }
     .about-content h2{
         text-align: center;
         margin: 3rem;
     }
     .about img{
+        width: 60vh;
+        height: 50vh;
         margin-top: 4rem;
     }
     .portfolio h2{

@@ -435,7 +435,7 @@ span{
         margin: 3rem;
     }
     .about img{
-        max-width: 10%;
+        max-width: 0%;
         align-items: center;
     }
     .portfolio h2{

@@ -427,7 +427,7 @@ span{
         position: absolute;
     }
     .about{
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
     .about-content h2{
@@ -435,8 +435,9 @@ span{
         margin: 3rem;
     }
     .about img{
-        max-width: 0%;
-        align-items: center;
+        width: 70vw;
+        height: 60vw;
+        margin-top: 4rem;
     }
     .portfolio h2{
         margin-bottom: 3rem;
